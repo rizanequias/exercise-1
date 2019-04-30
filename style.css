@@ -1,0 +1,63 @@
+/*General CSS*/
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	font-family: Comic Sans MS;
+
+}
+nav{
+	background-color: #ff4d4d;
+	color: #4dffff;
+}
+nav #nav-list{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+nav ul li{
+	padding: 16px;
+	text-align: center;
+	border: 0px solid black;
+	transition: background-color 0.3s, padding 0.8s linear;
+
+}
+/*Nav Transition*/
+nav ul li:hover{
+	background-color: #ffa64d;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*for responsive web design*/
+@media screen and (min-width: 700px){
+	
+	nav ul{
+		text-align: right;
+	}
+
+	nav ul li{
+		display:inline-block;
+		border-bottom: 0px;
+		border-left: 0px solid black;
+		text-align: left;
+	}
+
+}
